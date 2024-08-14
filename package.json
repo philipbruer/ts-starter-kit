@@ -8,5 +8,6 @@
     "type": "git",
     "url": "https://github.com/philipbruer/ts-starter-kit.git"
   },
-  "author": "Philip Bruér <philip.bruer@gmail.com>"
+  "author": "Philip Bruér <philip.bruer@gmail.com>",
+  "packageManager": "pnpm@9.5.0"
 }

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    // Compilation Settings
+    "target": "ESNext",
+    "module": "ESNext",
+    "noEmit": true,
+    "esModuleInterop": true,
+
+    // Code standard
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "exclude": ["node_modules"]
+}

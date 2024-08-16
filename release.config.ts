@@ -12,10 +12,11 @@ export default {
         changelogFile: "docs/CHANGELOG.md",
       },
     ],
+    "@semantic-release/npm",
     [
       "@semantic-release/git",
       {
-        assets: ["docs/CHANGELOG.md"],
+        assets: ["docs/CHANGELOG.md", "package.json"],
         message: "chore(release): ${nextRelease.version}\n\n[skip ci]",
       },
     ],

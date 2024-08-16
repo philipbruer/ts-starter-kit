@@ -5,6 +5,7 @@
     "module": "ESNext",
     "noEmit": true,
     "esModuleInterop": true,
+    "moduleResolution": "node",
 
     // Code standard
     "strict": true,

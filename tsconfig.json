@@ -6,6 +6,10 @@
     "noEmit": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    },
 
     // Code standard
     "strict": true,
